@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS While Loop</title>
+        <script>
+            //I can write the JS code before the closing of head tag
+        </script>
+    </head>
+    <body>
+        <p id="myid"></p>
+        <script>
+            //I can write the JS code before the closing of body tag
+
+            //Take username and How many time to greet
+            var name = prompt("What is your name");
+            let noTime = prompt("How many times to greet");
+            document.write(name);
+
+            //TypeCasting
+            //String -> Number
+            noTime = parseInt(noTime);
+            let myid = document.getElementById("myid")
+            myid.innerHTML = ( typeof noTime);
+            
+            /*
+            while(condition){
+                //code block to be executed
+            }
+            */
+           let i=1;
+           while(i<=6){
+                console.log("hi");
+           }
+        </script>
+    </body>
+</html>
